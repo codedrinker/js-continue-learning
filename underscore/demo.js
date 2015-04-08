@@ -1,8 +1,8 @@
 function integerArray() {
     var list = [1, 2, 3, 4];
-    console.log(list);
+    // console.log(list);
     var des = _.without(list, 1);
-    console.log(des)
+    // console.log(des)
 }
 
 function objectArray() {
@@ -21,5 +21,5 @@ function objectArray() {
     console.log(des)
 }
 
-integerArray();
+// integerArray();
 objectArray();

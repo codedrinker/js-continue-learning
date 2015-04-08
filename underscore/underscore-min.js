@@ -636,7 +636,7 @@
         return idx >= 0 ? idx + i : -1;
       }
       for (idx = dir > 0 ? i : length - 1; idx >= 0 && idx < length; idx += dir) {
-        if (array[idx] === item) return idx;
+        if (_.isEqual(array[idx],item)) return idx;
       }
       return -1;
     };
