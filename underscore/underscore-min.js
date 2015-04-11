@@ -629,7 +629,7 @@
         }
       } else if (sortedIndex && idx && length) {
         idx = sortedIndex(array, item);
-        return array[idx] === item ? idx : -1;
+        return _.isEqual(array[idx],item) ? idx : -1;
       }
       if (item !== item) {
         idx = predicateFind(slice.call(array, i, length), _.isNaN);
