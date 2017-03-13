@@ -1,0 +1,30 @@
+{
+  "name": "js-continue-learning",
+  "version": "1.0.0",
+  "description": "js continue learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codedrinker/js-continue-learning.git"
+  },
+  "keywords": [
+    "js",
+    "learning",
+    "example",
+    "react"
+  ],
+  "author": "codedrinker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codedrinker/js-continue-learning/issues"
+  },
+  "homepage": "https://github.com/codedrinker/js-continue-learning#readme",
+  "dependencies": {
+    "draft-js": "^0.10.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
